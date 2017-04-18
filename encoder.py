@@ -19,7 +19,7 @@ class Dates:
             else:
                 break
 
-        print(self.dates)
+        # print(self.dates)
 
 class LineData:
     def __init__(self, row:list, start_col:int, columns:int):
@@ -74,24 +74,37 @@ class Check:
 
     def set_server(self, name:str):
         self.server_name=name
-        print('set server', name, 'to', self.date)
+        # print('set server', name, 'to', self.date)
 
     def add_category(self, name:str):
-        print('add category',name, 'to', self.date)
+        # print('add category',name, 'to', self.date)
         self.categories.append(dict(name=name, data=[]))
 
     def add_goods(self, name:str, price:str, count:int):
-        self.categories[-1]['data'].append(dict(name=name,price=price,count=count))
-        print('add goods', name, 'price',price, 'count', count, 'to', self.date)
+        self.categories[-1]['data'].append(dict(name=name,price=self._read_price(price),count=count))
+        # print('add goods', name, 'price',self._read_price(price), 'count', count, 'to', self.date)
 
     def set_cards(self, amount:int):
         self.cards=amount
-        print('set cards',amount, 'to', self.date)
+        # print('set cards',amount, 'to', self.date)
 
-    def category_totol(self, category:dict)->str:
-        return '50.00р.'
+    def _read_price(self,price_str:str)->float:
+        return float(price_str.rstrip('р.').replace(',','.'))
 
-    def _total(self)->str:
+    def _format_rub(self, sum:float)->str:
+        return '{0:,.2f}'.format(sum).replace(',',' ').replace('.', ',') + 'р.'
+
+    def _category_total(self, category:dict)->float:
+        sum=0.0
+        for item in category['data']:
+            sum+=item['price']*item['count']
+
+        return sum
+
+    def _total(self)->float:
+        sum=0.0
+        for cat in self.categories:
+            sum+=self._
         return '100.00р.'
 
     def _total_cash(self):
@@ -99,6 +112,7 @@ class Check:
 
     def print(self, stream=sys.stdout):
         TWO_RECORD_FORMAT='{0:31}{1:>11}'
+        THREE_RECORD_FORMAT='{0:17}{1:>10}{2:>15}'
 
         print('                POS DEMO RU',file=stream)
         print('              ИП Никитин В.А.')
@@ -116,14 +130,29 @@ class Check:
         # print('date',date)
         # print('server',server)
         for category in self.categories:
-            if self.category_totol(category):
+            if self._category_total(category):
                 print(TWO_RECORD_FORMAT.format(category['name'],'####'))
                 print('Наименован.          Кол-во          Сумма')
                 print('-----------------------------------------')
                 for item in category['data']:
-                    print(item)
+                    # print(item)
+                    name=item['name']
+                    count='{0:.2f}'.format(item['count']).replace('.',',')
+                    sum=self._format_rub(item['count']*item['price'])
+
+
+                    first_line_name=name[:17]
+                    name=name[17:]
+                    # print(first_line_name,name)
+                    print(THREE_RECORD_FORMAT.format(first_line_name,count,sum))
+                    while name:
+                        print('{0:42}'.format(name[:17]))
+                        name = name[17:]
+
+
+
                 print('-----------------------------------------')
-                print(TWO_RECORD_FORMAT.format('Итого: '+category['name'],self.category_totol(category)))
+                print(TWO_RECORD_FORMAT.format('Итого: ' + category['name'], self._format_rub(self._category_total(category))))
                 print('=========================================')
                 print()
 
@@ -158,7 +187,7 @@ with open(csv_filename, encoding='cp866') as csvfile:
         checks.append(Check(date))
 
     server_row=csvreader.__next__()
-    print(server_row)
+    # print(server_row)
     servers=ServersData(server_row,dates.start_col,len(dates.dates))
 
     for check,server in zip(checks,servers.data):
