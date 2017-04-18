@@ -104,8 +104,8 @@ class Check:
     def _total(self)->float:
         sum=0.0
         for cat in self.categories:
-            sum+=self._
-        return '100.00р.'
+            sum+=self._category_total(cat)
+        return sum
 
     def _total_cash(self):
         return self._total()
@@ -115,25 +115,25 @@ class Check:
         THREE_RECORD_FORMAT='{0:17}{1:>10}{2:>15}'
 
         print('                POS DEMO RU',file=stream)
-        print('              ИП Никитин В.А.')
-        print('             ИНН: 781124376625')
-        print('------------------------------------------')#, len('------------------------------------------'))
-        print('{0:^42}'.format(self.date))
-        print('------------------------------------------')
-        print(TWO_RECORD_FORMAT.format('Итого', self._total()))
-        print('=========================================')
-        print('-----------------------------------------')
-        print('Продажи по товарам                        ')
-        print('------------------------------------------')
+        print('              ИП Никитин В.А.',file=stream)
+        print('             ИНН: 781124376625',file=stream)
+        print('------------------------------------------',file=stream)#, len('------------------------------------------'))
+        print('{0:^42}'.format(self.date),file=stream)
+        print('------------------------------------------',file=stream)
+        print(TWO_RECORD_FORMAT.format('Итого', self._format_rub(self._total())),file=stream)
+        print('=========================================',file=stream)
+        print('-----------------------------------------',file=stream)
+        print('Продажи по товарам                        ',file=stream)
+        print('------------------------------------------',file=stream)
 
         # print('printing check')
         # print('date',date)
         # print('server',server)
         for category in self.categories:
-            if self._category_total(category):
-                print(TWO_RECORD_FORMAT.format(category['name'],'####'))
-                print('Наименован.          Кол-во          Сумма')
-                print('-----------------------------------------')
+            if self._category_total(category)>1.0:
+                print(TWO_RECORD_FORMAT.format(category['name'],'####'),file=stream)
+                print('Наименован.          Кол-во          Сумма',file=stream)
+                print('-----------------------------------------',file=stream)
                 for item in category['data']:
                     # print(item)
                     name=item['name']
@@ -144,33 +144,33 @@ class Check:
                     first_line_name=name[:17]
                     name=name[17:]
                     # print(first_line_name,name)
-                    print(THREE_RECORD_FORMAT.format(first_line_name,count,sum))
+                    print(THREE_RECORD_FORMAT.format(first_line_name,count,sum),file=stream)
                     while name:
-                        print('{0:42}'.format(name[:17]))
+                        print('{0:42}'.format(name[:17]),file=stream)
                         name = name[17:]
 
 
 
-                print('-----------------------------------------')
-                print(TWO_RECORD_FORMAT.format('Итого: ' + category['name'], self._format_rub(self._category_total(category))))
-                print('=========================================')
-                print()
+                print('-----------------------------------------',file=stream)
+                print(TWO_RECORD_FORMAT.format('Итого: ' + category['name'], self._format_rub(self._category_total(category))),file=stream)
+                print('=========================================',file=stream)
+                print(file=stream)
 
 
-        print('Продажи по Официантам                     ')
-        print('------------------------------------------')
-        print('Наименование                         Сумма')
-        print('-----------------------------------------')
+        print('Продажи по Официантам                     ',file=stream)
+        print('------------------------------------------',file=stream)
+        print('Наименование                         Сумма',file=stream)
+        print('-----------------------------------------',file=stream)
 
-        print(TWO_RECORD_FORMAT.format(self.server_name,self._total()))
-        print(TWO_RECORD_FORMAT.format('-Наличные', self._total_cash()))
+        print(TWO_RECORD_FORMAT.format(self.server_name,self._format_rub(self._total())),file=stream)
+        print(TWO_RECORD_FORMAT.format('-Наличные', self._format_rub(self._total_cash())),file=stream)
         if self.cards:
-            print('cards', self.cards)
+            print('cards', self.cards) # todo  добавить карты !!!!!!!!!!!!!
         else:
-            print()
+            print(file=stream)
 
-        print('=========================================')
-        print('POS Sector - 2015')
+        print('=========================================',file=stream)
+        print('POS Sector - 2015',file=stream)
 
 
 csv_filename='files/menu_prepared1.csv'
@@ -218,4 +218,6 @@ with open(csv_filename, encoding='cp866') as csvfile:
         check.set_cards(card)
 
     for check in checks:
-        check.print()
+        filename='files/out/'+check.date+'.txt'
+        with open(filename, 'w', encoding='utf-8') as fd:
+            check.print(fd)

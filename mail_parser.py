@@ -9,8 +9,9 @@ if __name__ == "__main__":
     with open(fle) as f:
         msg=email.message_from_file(f)
         walk=msg.walk()
-        walk.__next__()
+        part1=walk.__next__().as_string()
+        print(part1)
         part=walk.__next__().as_string()
         # print(part)
 
-        print(quopri.decodestring(part).decode())
+        # print(quopri.decodestring(part).decode())
