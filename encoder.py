@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Vit'
-import csv,sys
+import csv,sys,os
 
 class Dates:
     def __init__(self, row:list):
@@ -173,7 +173,7 @@ class Check:
         print('POS Sector - 2015',file=stream)
 
 
-csv_filename='files/menu_prepared1.csv'
+csv_filename='files/menu_prepared.csv'
 
 with open(csv_filename, encoding='cp866') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=';', quotechar='|')
@@ -218,6 +218,17 @@ with open(csv_filename, encoding='cp866') as csvfile:
         check.set_cards(card)
 
     for check in checks:
-        filename='files/out/'+check.date+'.txt'
-        with open(filename, 'w', encoding='utf-8') as fd:
-            check.print(fd)
+        check.print()
+
+    for item in sys.argv[1:]:
+        if item.startswith('-'):
+            path='files/'+item.strip('-')+'/'
+            print(path)
+            if not os.path.exists(path):
+                os.makedirs(path)
+
+            for check in checks:
+                filename=path+check.date+'.txt'
+                with open(filename, 'w', encoding='utf-8') as fd:
+                    check.print(fd)
+                    print('Writing',filename)
