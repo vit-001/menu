@@ -114,7 +114,7 @@ class Check:
         TWO_RECORD_FORMAT='{0:31}{1:>11}'
         THREE_RECORD_FORMAT='{0:17}{1:>10}{2:>15}'
 
-        print('                POS DEMO RU',file=stream)
+        print('            "BubbleWaffle&Tea"',file=stream)
         print('              ИП Никитин В.А.',file=stream)
         print('             ИНН: 781124376625',file=stream)
         print('------------------------------------------',file=stream)#, len('------------------------------------------'))
@@ -136,7 +136,7 @@ class Check:
                 print('-----------------------------------------',file=stream)
                 for item in category['data']:
                     # print(item)
-                    name=item['name']
+                    name=item['name'].replace('"','')
                     count='{0:.2f}'.format(item['count']).replace('.',',')
                     sum=self._format_rub(item['count']*item['price'])
 
@@ -163,11 +163,15 @@ class Check:
         print('-----------------------------------------',file=stream)
 
         print(TWO_RECORD_FORMAT.format(self.server_name,self._format_rub(self._total())),file=stream)
-        print(TWO_RECORD_FORMAT.format('-Наличные', self._format_rub(self._total_cash())),file=stream)
+
         if self.cards:
-            print('cards', self.cards) # todo  добавить карты !!!!!!!!!!!!!
-        else:
-            print(file=stream)
+            print(TWO_RECORD_FORMAT.format('-Карточка', self._format_rub(self.cards)), file=stream)
+        # else:
+            # print(file=stream)
+
+
+        print(TWO_RECORD_FORMAT.format('-Наличные', self._format_rub(self._total_cash())),file=stream)
+
 
         print('=========================================',file=stream)
         print('POS Sector - 2015',file=stream)

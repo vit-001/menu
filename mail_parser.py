@@ -5,7 +5,7 @@ import email
 import quopri
 
 if __name__ == "__main__":
-    fle = 'files/Message14924067930000000028.eml'
+    fle = 'files/Message14927531440000001020.eml'
     with open(fle) as f:
         msg=email.message_from_file(f)
         walk=msg.walk()
@@ -14,4 +14,4 @@ if __name__ == "__main__":
         part=walk.__next__().as_string()
         # print(part)
 
-        # print(quopri.decodestring(part).decode())
+        print(quopri.decodestring(part).decode())

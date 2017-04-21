@@ -1,0 +1,247 @@
+Delivered-To: bubblewaffle@inbox.ru
+Return-path: <bounces+1533970-5dd8-bubblewaffle=inbox.ru@sendgrid.net>
+Authentication-Results: mxs.mail.ru; spf=pass (mx171.mail.ru: domain of sendgrid.net designates 50.31.63.43 as permitted sender) smtp.mailfrom=bounces+1533970-5dd8-bubblewaffle=inbox.ru@sendgrid.net smtp.helo=o2.lv30e.shared.sendgrid.net;
+	 dkim=pass header.d=sendgrid.me
+Received-SPF: pass (mx171.mail.ru: domain of sendgrid.net designates 50.31.63.43 as permitted sender) client-ip=50.31.63.43; envelope-from=bounces+1533970-5dd8-bubblewaffle=inbox.ru@sendgrid.net; helo=o2.lv30e.shared.sendgrid.net;
+Received: from o2.lv30e.shared.sendgrid.net ([50.31.63.43]:18208)
+	by mx171.mail.ru with esmtp (envelope-from <bounces+1533970-5dd8-bubblewaffle=inbox.ru@sendgrid.net>)
+	id 1d1RHc-0003Im-7B
+	for bubblewaffle@inbox.ru; Fri, 21 Apr 2017 08:39:04 +0300
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=sendgrid.me; 
+	h=content-type:from:mime-version:subject:to; s=smtpapi; 
+	bh=8q9zoC5IxtQ1S4ew5iYnxdv7G3U=; b=SIweG61PGhKH8DcBc7xb9yGfKHL3e
+	z+A0KxbB2ZRY5w7pqqqwA/SqHShE9pvxcCp+v5tKNSdqxRHh6lk2ihArYSwIp/cP
+	0JnrnTpFGlkS7+WBbRyDtbJBGHB+WmjAI/S/6V7s19W+sYg3GmYzCODTFLD1wzGt
+	nKZkRBIJWMX59U=
+Received: by filter0568p1mdw1.sendgrid.net with SMTP id filter0568p1mdw1-2967-58F99AF4-D
+        2017-04-21 05:39:00.211706746 +0000 UTC
+Received: from MTUzMzk3MA (host-21-158-66-217.spbmts.ru [217.66.158.21])
+	by ismtpd0001p1lon1.sendgrid.net (SG) with HTTP id 8XTcwLRKRs6r2Qrk012ppQ
+	for <bubblewaffle@inbox.ru>; Fri, 21 Apr 2017 05:39:00.026 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=47b44aa973fd5fb379119e50b5db1226c96668187886c7da590d496792d8
+Date: Fri, 21 Apr 2017 05:39:00 +0000
+From: "POS Sector Report" <pos@pos-sector.com>
+Mime-Version: 1.0
+Subject: =?UTF-8?Q?=D0=9E=D1=82=D1=87=D0=B5=D1=82?=
+To: bubblewaffle@inbox.ru
+Message-ID: <8XTcwLRKRs6r2Qrk012ppQ@ismtpd0001p1lon1.sendgrid.net>
+X-SG-EID: mbKKu7iD1CEWaJJgnCptj1YywFPmZjNaEwN8uF7WG/tozeoo6h9lutLJJCXTE4QInnGPngXvucVFj4
+ 12m9GTY8OqnIMR+eT/zA0htGbovsNrZQ6vTtTPBs0pQ3hTdkfOMjPtNJzZ3pDshc26cR86FORW6drk
+ wk37Nc8Tn4qBIgsQidchp2Cwlnu0flTb0biyGTxfAxIjGtxOyICHvOGifXNGRz0T7ZS0Si+tHCZgv8
+ A=
+X-DMARC-Policy: no
+X-Mras: OK
+X-Spam: undefined
+
+--47b44aa973fd5fb379119e50b5db1226c96668187886c7da590d496792d8
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0
+
+
+            "BubbleWaffle&Tea"
+              =D0=98=D0=9F =D0=9D=D0=B8=D0=BA=D0=B8=D1=82=D0=B8=D0=BD =D0=
+=92.=D0=90.
+             =D0=98=D0=9D=D0=9D: 781124376625
+------------------------------------------
+                20.04.2017
+------------------------------------------
+=D0=98=D1=82=D0=BE=D0=B3=D0=BE                           1=C2=A0110,00=D1=
+=80.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+-----------------------------------------
+=D0=9F=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B8 =D0=BF=D0=BE =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=B0=D0=BC=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20
+------------------------------------------
+=D0=92=D0=B0=D1=84=D0=BB=D0=B8                                 ####
+=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD.          =D0=
+=9A=D0=BE=D0=BB-=D0=B2=D0=BE          =D0=A1=D1=83=D0=BC=D0=BC=D0=B0
+-----------------------------------------
+=D0=91=D0=B0=D0=B1=D0=B1=D0=BB =D0=B2=D0=B0=D1=84=D0=BB=D1=8F            1,=
+00       100,00=D1=80.
+=D0=91=D0=B0=D0=B1=D0=B1=D0=BB =D0=B2=D0=B0=D1=84=D0=BB=D1=8F =D1=81 =D0=B1=
+=D0=B0=D0=BD      2,00       300,00=D1=80.
+=D0=B0=D0=BD=D0=BE=D0=BC =D0=B2 =D1=88=D0=BE=D0=BA=D0=BE=D0=BB=D0=B0=D0=B4=
+=D0=B5=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20
+-----------------------------------------
+=D0=98=D1=82=D0=BE=D0=B3=D0=BE: =D0=92=D0=B0=D1=84=D0=BB=D0=B8             =
+         400,00=D1=80.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=D0=9A=D0=BE=D1=84=D0=B5                                  ####
+=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD.          =D0=
+=9A=D0=BE=D0=BB-=D0=B2=D0=BE          =D0=A1=D1=83=D0=BC=D0=BC=D0=B0
+-----------------------------------------
+=D0=9A=D0=B0=D0=BF=D1=83=D1=87=D0=B8=D0=BD=D0=BE =D1=81=D0=BE=D0=BB=D0=B5=
+=D0=BD=D0=B0=D1=8F       1,00       220,00=D1=80.
+=D0=BA=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D0=BB=D1=8C 400 =D0=BC=D0=BB=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=D0=A0=D0=B0=D1=84 =D0=BA=D0=BE=D1=84=D0=B5 =D0=B2=D0=B0=D0=BD=D0=B8=D0=BB=
+=D1=8C=D0=BD=D1=8B      1,00       220,00=D1=80.
+=D0=B9 400 =D0=BC=D0=BB=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+-----------------------------------------
+=D0=98=D1=82=D0=BE=D0=B3=D0=BE: =D0=9A=D0=BE=D1=84=D0=B5                   =
+    440,00=D1=80.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=D0=9B=D0=B8=D0=BC=D0=BE=D0=BD=D0=B0=D0=B4                               ##=
+##
+=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD.          =D0=
+=9A=D0=BE=D0=BB-=D0=B2=D0=BE          =D0=A1=D1=83=D0=BC=D0=BC=D0=B0
+-----------------------------------------
+=D0=9B=D0=B8=D0=BC=D0=BE=D0=BD=D0=B0=D0=B4 =D0=BC=D1=8F=D1=82=D0=BD=D1=8B=
+=D0=B9 =D0=BA=D0=B8      1,00       270,00=D1=80.
+=D0=B2=D0=B8 =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20
+-----------------------------------------
+=D0=98=D1=82=D0=BE=D0=B3=D0=BE: =D0=9B=D0=B8=D0=BC=D0=BE=D0=BD=D0=B0=D0=B4 =
+                   270,00=D1=80.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=D0=9F=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B8 =D0=BF=D0=BE =D0=9E=D1=84=D0=B8=
+=D1=86=D0=B8=D0=B0=D0=BD=D1=82=D0=B0=D0=BC=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20
+------------------------------------------
+=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5   =
+                      =D0=A1=D1=83=D0=BC=D0=BC=D0=B0
+-----------------------------------------
+=D0=9C=D0=B0=D0=BA=D1=81=D0=B8=D0=BC                          1=C2=A0110,00=
+=D1=80.
+-=D0=9A=D0=B0=D1=80=D1=82=D0=BE=D1=87=D0=BA=D0=B0                         8=
+60,00=D1=80.
+-=D0=9D=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D0=B5                         2=
+50,00=D1=80.
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+POS Sector - 2015
+
+--47b44aa973fd5fb379119e50b5db1226c96668187886c7da590d496792d8
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Mime-Version: 1.0
+
+<p style=3D"font-family: monospace"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"BubbleWaffle&Tea"<br>&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=D0=98=
+=D0=9F&nbsp;=D0=9D=D0=B8=D0=BA=D0=B8=D1=82=D0=B8=D0=BD&nbsp;=D0=92.=D0=90.<=
+br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;=D0=98=D0=9D=D0=9D:&nbsp;781124376625<br>----------------------------=
+--------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20.04.2017<br>----------------------=
+--------------------<br>=D0=98=D1=82=D0=BE=D0=B3=D0=BE&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1=C2=A011=
+0,00=D1=80.<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>--------=
+---------------------------------<br>=D0=9F=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=
+=D0=B8&nbsp;=D0=BF=D0=BE&nbsp;=D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0=D0=BC&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>-----=
+-------------------------------------<br>=D0=92=D0=B0=D1=84=D0=BB=D0=B8&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;####<br>=D0=9D=D0=B0=D0=B8=D0=
+=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;=D0=9A=D0=BE=D0=BB-=D0=B2=D0=BE&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=D0=A1=D1=83=D0=BC=D0=BC=D0=B0<br>=
+-----------------------------------------<br>=D0=91=D0=B0=D0=B1=D0=B1=D0=BB=
+&nbsp;=D0=B2=D0=B0=D1=84=D0=BB=D1=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;100,00=D1=80.<br>=D0=91=D0=B0=D0=B1=D0=B1=D0=BB&nbsp;=D0=B2=D0=B0=D1=84=
+=D0=BB=D1=8F&nbsp;=D1=81&nbsp;=D0=B1=D0=B0=D0=BD&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;2,00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;300,00=D1=80.<br>=D0=
+=B0=D0=BD=D0=BE=D0=BC&nbsp;=D0=B2&nbsp;=D1=88=D0=BE=D0=BA=D0=BE=D0=BB=D0=B0=
+=D0=B4=D0=B5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;<br>-----------------------------------------<br>=
+=D0=98=D1=82=D0=BE=D0=B3=D0=BE:&nbsp;=D0=92=D0=B0=D1=84=D0=BB=D0=B8&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400,00=D1=80.<br>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>=D0=9A=
+=D0=BE=D1=84=D0=B5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;###=
+#<br>=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD.&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=D0=9A=D0=BE=D0=BB-=D0=
+=B2=D0=BE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=D0=A1=
+=D1=83=D0=BC=D0=BC=D0=B0<br>-----------------------------------------<br>=
+=D0=9A=D0=B0=D0=BF=D1=83=D1=87=D0=B8=D0=BD=D0=BE&nbsp;=D1=81=D0=BE=D0=BB=D0=
+=B5=D0=BD=D0=B0=D1=8F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,00&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;220,00=D1=80.<br>=D0=BA=D0=B0=D1=80=D0=B0=
+=D0=BC=D0=B5=D0=BB=D1=8C&nbsp;400&nbsp;=D0=BC=D0=BB&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>=D0=A0=
+=D0=B0=D1=84&nbsp;=D0=BA=D0=BE=D1=84=D0=B5&nbsp;=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=BB=D1=8C=D0=BD=D1=8B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,00&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;220,00=D1=80.<br>=D0=B9&nbsp;400&nbsp;=D0=BC=D0=
+=BB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>--------------=
+---------------------------<br>=D0=98=D1=82=D0=BE=D0=B3=D0=BE:&nbsp;=D0=9A=
+=D0=BE=D1=84=D0=B5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;440,00=D1=80.<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;<br>=D0=9B=D0=B8=D0=BC=D0=BE=D0=BD=D0=B0=D0=B4&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;####<br>=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=
+=D0=BE=D0=B2=D0=B0=D0=BD.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;=D0=9A=D0=BE=D0=BB-=D0=B2=D0=BE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;=D0=A1=D1=83=D0=BC=D0=BC=D0=B0<br>---------------=
+--------------------------<br>=D0=9B=D0=B8=D0=BC=D0=BE=D0=BD=D0=B0=D0=B4&nb=
+sp;=D0=BC=D1=8F=D1=82=D0=BD=D1=8B=D0=B9&nbsp;=D0=BA=D0=B8&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;1,00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;270,00=D1=
+=80.<br>=D0=B2=D0=B8&nbsp;=D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>------------------------------------=
+-----<br>=D0=98=D1=82=D0=BE=D0=B3=D0=BE:&nbsp;=D0=9B=D0=B8=D0=BC=D0=BE=D0=
+=BD=D0=B0=D0=B4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;270,00=D1=80.<b=
+r>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;<br>=D0=9F=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B8&nbsp;=D0=BF=D0=BE&nbsp;=D0=
+=9E=D1=84=D0=B8=D1=86=D0=B8=D0=B0=D0=BD=D1=82=D0=B0=D0=BC&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>--------------------------------------=
+----<br>=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=
+=D0=B5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;=D0=A1=D1=83=D0=BC=D0=BC=D0=B0<br>-----------------------------------=
+------<br>=D0=9C=D0=B0=D0=BA=D1=81=D0=B8=D0=BC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1=C2=A0110,00=D1=80.<br=
+>-=D0=9A=D0=B0=D1=80=D1=82=D0=BE=D1=87=D0=BA=D0=B0&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;860,00=D1=80.<br>-=D0=9D=
+=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D0=B5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;250,00=D1=80.<br><br>=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br></p><p><em>POS Sector - 2015</em></=
+p>
+
+--47b44aa973fd5fb379119e50b5db1226c96668187886c7da590d496792d8--
