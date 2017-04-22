@@ -10,7 +10,7 @@ if __name__ == "__main__":
         msg=email.message_from_file(f)
         walk=msg.walk()
         part1=walk.__next__().as_string()
-        print(part1)
+        # print(part1)
         part=walk.__next__().as_string()
         # print(part)
 

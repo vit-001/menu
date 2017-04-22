@@ -170,7 +170,7 @@ class Check:
             # print(file=stream)
 
 
-        print(TWO_RECORD_FORMAT.format('-Наличные', self._format_rub(self._total_cash())),file=stream)
+        print(TWO_RECORD_FORMAT.format('-Наличные', self._format_rub(self._total_cash()-self.cards)),file=stream)
 
 
         print('=========================================',file=stream)
@@ -232,7 +232,7 @@ with open(csv_filename, encoding='cp866') as csvfile:
                 os.makedirs(path)
 
             for check in checks:
-                filename=path+check.date+'.txt'
+                filename=path+'Отчет_'+check.date+'.txt'
                 with open(filename, 'w', encoding='utf-8') as fd:
                     check.print(fd)
                     print('Writing',filename)
